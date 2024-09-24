@@ -1,7 +1,28 @@
-<strong> **DO NOT DISTRIBUTE OR PUBLICLY POST SOLUTIONS TO THESE LABS. MAKE ALL FORKS OF THIS REPOSITORY WITH SOLUTION CODE PRIVATE. PLEASE REFER TO THE STUDENT CODE OF CONDUCT AND ETHICAL EXPECTATIONS FOR COLLEGE OF INFORMATION TECHNOLOGY STUDENTS FOR SPECIFICS. ** </strong>
-# WESTERN GOVERNORS UNIVERSITY 
-## D280 – JAVASCRIPT PROGRAMMING
-Welcome to JavaScript Programming! 
-For specific task instructions and requirements for this assessment, please refer to the course page.
+## Student ID
+010878104
+
+## Project Overview
+This project is an Angular-based web application that integrates an SVG world map with the World Bank API to display country-specific information. The map is interactive, allowing users to click on a country to view relevant data such as country name, capital, region, income level, and additional properties.
+
+## Angular and Environment Details
+- **Angular CLI:** 18.2.5
+- **Node:** 20.17.0
+- **Package Manager:** npm 10.8.3
+- **OS:** win32 x64
+- **Angular:** 18.2.5
+
+## Configuration Details
+The application is configured with Angular routing to automatically redirect to the map page on load. It utilizes HTTPClient to fetch data from the World Bank API.
+
+## Files Included
+- `src/`
+- `tsconfig.app.json`
+- `tsconfig.json`
+- `tsconfig.spec.json`
+- `angular.json`
+- `package.json`
+- `package-lock.json`
+- `README.md`
+- `SVG`
  
 
