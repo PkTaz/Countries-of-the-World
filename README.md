@@ -1,5 +1,5 @@
 ## Student ID
-010878104
+010878103
 
 ## Project Overview
 This project is an Angular-based web application that integrates an SVG world map with the World Bank API to display country-specific information. The map is interactive, allowing users to click on a country to view relevant data such as country name, capital, region, income level, and additional properties.
