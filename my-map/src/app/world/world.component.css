@@ -1,13 +1,60 @@
-.map-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh; /* Adjust the height as needed */
-  }
-  
-  .world-map {
-    width: 100%;
-    height: auto;
-    max-width: 1200px; /* Adjust as needed */
-  }
+/* CSS FOR MAP AND DATA TABLE */
+
+.data-table {
+  position: relative;
+  background-color: rgb(17, 123, 26);
+  left: 72%;
+  top: -625px;
+  width: 375px;
+  border-radius: 10px;
+  padding: 20px 20px;
+  justify-content: left;
+  align-content: flex-start;
+}
+
+.data-table p {
+  font-size: 18px;
+  text-align: left;
+  padding-top: 12px;
+}
+
+.card2 {
+  position: relative;
+  flex: 1;
+  max-width: 100%;
+  margin: 0;
+  padding-left: 50px;
+  padding-top: 40px;
+}
+
+svg path {
+  cursor: pointer;;
+}
+
+path {
+  transition: transform 0.3s ease, fill 0.3s ease; /* Adjust timing as needed */
+  transform-origin: center; /* Ensure the zoom effect originates from the center of the country */
+}
+
+path:hover {
+  transform: scale(1.009); /* Adjust scale factor (1.1 is 10% zoom) */
+  fill: red; /* Optionally, change the color when hovered */
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5)); /* Shadow effect */
+}
+
+
+svg {
+  height: 700px;
+  width: auto;
+  padding: 65px;
+  border: 5px solid rgb(0, 0, 0);
+}
+
+.container {
+  margin: 0;
+}
+
+.row1, .row2, .row3 {
+  width: 100%;
+  display: flex;
+}
