@@ -2,7 +2,7 @@
 
 .data-table {
   position: relative;
-  background-color: rgb(17, 123, 26);
+  background-color: #FFA80f;
   left: 72%;
   top: -625px;
   width: 375px;
@@ -44,10 +44,10 @@ path:hover {
 
 
 svg {
-  height: 700px;
+  height: 750px;
   width: auto;
   padding: 65px;
-  border: 5px solid rgb(0, 0, 0);
+  border: 10px solid rgb(0, 0, 0);
 }
 
 .container {
