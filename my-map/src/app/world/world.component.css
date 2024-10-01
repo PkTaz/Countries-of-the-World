@@ -32,14 +32,13 @@ svg path {
 }
 
 path {
-  transition: transform 0.3s ease, fill 0.3s ease; /* Adjust timing as needed */
-  transform-origin: center; /* Ensure the zoom effect originates from the center of the country */
+  transition: transform 0.3s ease, fill 0.3s ease; 
+  transform-origin: center; 
 }
 
 path:hover {
-  transform: scale(1.009); /* Adjust scale factor (1.1 is 10% zoom) */
-  fill: red; /* Optionally, change the color when hovered */
-  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5)); /* Shadow effect */
+  transform: scale(1.009);  
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5)); 
 }
 
 
@@ -47,7 +46,7 @@ svg {
   height: 750px;
   width: auto;
   padding: 65px;
-  border: 10px solid rgb(0, 0, 0);
+  border: 10px solid #FFA80f;
 }
 
 .container {
