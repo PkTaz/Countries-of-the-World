@@ -12,7 +12,7 @@ This project is an Angular-based web application that integrates an SVG world ma
 - **Angular:** 18.2.5
 
 ## Configuration Details
-The application is configured with Angular routing to automatically redirect to the map page on load. It utilizes HTTPClient to fetch data from the World Bank API.
+The application is configured with Angular routing to automatically redirect to /world for the map page on load. It utilizes HTTPClient to fetch data from the World Bank API.
 
 ## Files Included
 - `.angular/cahe/18.2.5/`
