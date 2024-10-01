@@ -51,15 +51,13 @@ export class WorldComponent implements OnInit {
           });
         });
 
-        //Change the color of selected country when selected
         svgCountry.addEventListener('mouseover', (event:MouseEvent)=> {
-          const path = event.target as SVGPathElement;
+          const path = event.target as SVGPathElement;                              //Changed the color of selected country when selected
           path.style.fill = '#FFA500';
         });
 
-        //Revert back to base color
         svgCountry.addEventListener('mouseleave', (event:MouseEvent)=> {
-          const path = event.target as SVGPathElement;
+          const path = event.target as SVGPathElement;                              //Reverts back to base color when unselected
           path.style.fill = '';
         });
 
