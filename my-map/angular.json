@@ -27,9 +27,9 @@
               }
             ],
             "styles": [
-            "src/styles.scss",
-            "src/app/app.component.scss",
-            "src/app/world/world.component.scss"
+            "src/styles.css",
+            "src/app/app.component.css",
+            "src/app/world/world.component.css"
 ],
             "scripts": []
           },

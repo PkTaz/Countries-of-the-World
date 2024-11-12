@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
   standalone: true,
   imports: [],
   templateUrl: './world.component.html',
-  styleUrls: ['./world.component.scss']
+  styleUrls: ['./world.component.css']
 })
 export class WorldComponent implements OnInit {
 

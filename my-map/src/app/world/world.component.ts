@@ -1,6 +1,6 @@
 import { Component, OnInit, Inject, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
-import { ApiService } from '../api.service'; // Adjust the path if necessary
+import { ApiService } from '../api.service'; 
 import { Observable } from 'rxjs';
 
 @Component({
@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
   standalone: true,
   imports: [],
   templateUrl: './world.component.html',
-  styleUrls: ['./world.component.scss']
+  styleUrls: ['./world.component.css']
 })
 export class WorldComponent implements OnInit {
 

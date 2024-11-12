@@ -7,7 +7,7 @@ import { WorldComponent } from './world/world.component'; // Adjust the path as 
   standalone: true,
   imports: [RouterOutlet,],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'] // Corrected from styleUrl to styleUrls
+  styleUrls: ['./app.component.css'] // Corrected from styleUrl to styleUrls
 })
 export class AppComponent {
   title = 'd280_app';
